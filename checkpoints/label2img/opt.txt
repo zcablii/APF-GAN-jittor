@@ -1,0 +1,91 @@
+            D_steps_per_G: 1                             
+                  USE_AMP: False                         
+                add_noise: False                         
+             aspect_ratio: 1.3333333333333333            
+                batchSize: 5                             	[default: 20]
+                    beta1: 0.0                           
+                    beta2: 0.9                           
+               brightness: (1, 1)                        
+      cache_filelist_read: True                          
+     cache_filelist_write: True                          
+          checkpoints_dir: ./checkpoints                 
+   contain_dontcare_label: False                         
+           continue_train: True                          	[default: False]
+                 contrast: (1, 1)                        
+                crop_size: 512                           
+                 dataroot: ./datasets/coco_stuff/        
+             dataset_mode: custom                        
+                    debug: False                         
+                 diff_aug: color,crop,translation        	[default: ]
+             display_freq: 50000                         
+          display_winsize: 256                           
+              encode_mask: True                          
+                 gan_mode: hinge                         
+                  gpu_ids: 0                             
+                image_dir:                               
+           inception_loss: True                          	[default: False]
+                init_type: xavier                        
+            init_variance: 0.02                          
+               input_path: /opt/data/common/jottor2022/train	[default: ]
+             instance_dir:                               
+                  isTrain: True                          	[default: None]
+                label_dir:                               
+                 label_nc: 29                            
+              lambda_feat: 10.0                          
+               lambda_kld: 0.05                          
+               lambda_vgg: 10.0                          
+       load_from_opt_file: False                         
+                load_size: 572                           
+                       lr: 0.0002                        
+         max_dataset_size: 9223372036854775807           
+                    model: pix2pix                       
+                 nThreads: 8                             
+               n_layers_D: 4                             
+                     name: label2img                     
+                      ndf: 64                            
+                      nef: 16                            
+                     netD: multiscale                    
+             netD_subarch: n_layer                       
+                     netG: spade                         
+                      ngf: 64                            
+                    niter: 340                           	[default: 180]
+              niter_decay: 0                             
+                  no_TTUR: False                         
+                  no_flip: False                         
+          no_ganFeat_loss: False                         
+                  no_html: False                         
+              no_instance: True                          
+         no_pairing_check: False                         
+              no_vgg_loss: False                         
+                   norm_D: spectralinstance              
+                   norm_E: spectralinstance              
+                   norm_G: spectralspadesyncbatch3x3     
+                    num_D: 4                             
+    num_upsampling_layers: more                          
+                 one_pg_D: False                         
+                optimizer: adam                          
+                output_nc: 3                             
+              pg_lr_decay: 1                             
+                 pg_niter: 180                           
+              pg_strategy: 1                             
+                    phase: train                         
+          preprocess_mode: scale_width_and_crop          
+               print_freq: 10000                         
+         remove_hard_imgs: True                          
+      remove_img_txt_path: ./remove_130_imgs.txt         
+            reverse_map_D: False                         
+               saturation: (1, 1)                        
+          save_epoch_freq: 20                            
+         save_latest_freq: 50000                         
+           serial_batches: False                         
+                 sr_model: pix2pix                       
+                 sr_scale: 0                             
+                   tf_log: False                         
+     use_interFeature_pos: False                         
+                  use_pos: False                         
+             use_pos_proj: False                         
+            use_seg_noise: True                          	[default: False]
+     use_seg_noise_kernel: 1                             
+                  use_vae: True                          
+              which_epoch: 180                           	[default: latest]
+                    z_dim: 256                           
