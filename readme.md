@@ -1,3 +1,24 @@
+
+## This repository is the official implementation of CVM "APF-GAN: Exploring asymmetric pre-training and fine-tuning strategy for conditional generative adversarial network" at: [https://www.sciopen.com/article/pdf/10.1007/s41095-023-0357-1.pdf?stage=5](https://www.sciopen.com/article/pdf/10.1007/s41095-023-0357-1.pdf?stage=5).
+
+## Citation
+
+If you use this toolbox or benchmark in your research, please cite this project.
+
+```bibtex
+@article{Li2024, 
+author = {Yuxuan Li and Lingfeng Yang and Xiang Li},
+title = {APF-GAN: Exploring asymmetric pre-training and fine-tuning strategy for conditional generative adversarial network},
+year = {2024},
+journal = {Computational Visual Media},
+volume = {10},
+number = {1},
+pages = {187-192},
+url = {https://www.sciopen.com/article/10.1007/s41095-023-0357-1},
+doi = {10.1007/s41095-023-0357-1},
+}
+```
+
 # 第二届计图(Jittor)人工智能挑战赛--赛道一
 
 ## 赛题说明
